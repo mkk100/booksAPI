@@ -1,5 +1,5 @@
 # booksAPI
-Lightweight command-line REPL bookstore built using Go
+Lightweight command-line REPL bookstore built using Go & BigBook API
 
 ### Search by query
 <img width="488" height="321" alt="Screenshot 2026-02-18 at 11 36 10 AM" src="https://github.com/user-attachments/assets/76633411-f591-4bcc-9312-92a7935b951e" />
