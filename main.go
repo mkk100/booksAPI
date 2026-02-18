@@ -14,6 +14,7 @@ func main(){
 	fmt.Println("Welcome to the Bookstore")
 
 	for {
+		fmt.Print("\n")
 		fmt.Println("1. Search Books (search)")
 		fmt.Println("2. Add to the cart (add {bookId})")
 		fmt.Println("3. Delete book (delete {bookId})")

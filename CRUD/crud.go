@@ -23,7 +23,6 @@ func DeleteBook(id string) {
 }
 
 func ViewBooks() {
-	fmt.Println(len(library))
 	for _, book := range library {
 		fmt.Printf("[%d] %s (Rating: %.2f)\n", book.ID, book.Title, book.Rating.Average)
 	}
