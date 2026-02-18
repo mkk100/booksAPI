@@ -23,7 +23,7 @@ func SearchBooksHandler(reader *bufio.Reader) {
 		}
 }
 
-func SearchBook(reader *bufio.Reader) {
+func SearchBookHandler(reader *bufio.Reader) {
 		fmt.Print("Enter book ID: ")
 		searchQuery, _ := reader.ReadString('\n')
 		searchQuery = strings.TrimSpace(searchQuery)
